@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/vhemalheiro/github-action-site#readme",
   "dependencies": {
-    "@actions/core": "^1.11.1"
+    "@actions/core": "^1.11.1",
+    "@actions/exec": "^1.1.1",
+    "@actions/github": "^6.0.1"
   }
 }
