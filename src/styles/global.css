@@ -1,5 +1,7 @@
 @import "tailwindcss";
-@plugin "daisyui";
+@plugin "daisyui" {
+  themes: light --default, halloween --prefersdark;
+}
 
 body {
   margin: 0 auto;
@@ -108,10 +110,6 @@ html.dark {
 
   .hamburger {
     display: none;
-  }
-
-  .navigation {
-    display: inline;
   }
 
   .md\:px-16 {
