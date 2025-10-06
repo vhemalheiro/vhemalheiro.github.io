@@ -1,5 +1,10 @@
-<div class="avatar mb-4">
+---
+import site from '../../site.json';
+---
+
+<div class="avatar md:mb-4">
   <div class="mask mask-squircle w-24">
-    <img src="https://img.daisyui.com/images/profile/demo/distracted1@192.webp" />
+    <!-- <img src="https://img.daisyui.com/images/profile/demo/distracted1@192.webp" /> -->
+     <img src={site.avatar} />
   </div>
 </div>
