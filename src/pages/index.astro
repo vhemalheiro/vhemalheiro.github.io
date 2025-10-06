@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import '../styles/global.css';
+import site from '../../site.json';
+import Socials from '../components/Socials.astro';
 import Avatar from '../components/Avatar.astro';
 import { MapPinHouse } from '@lucide/astro';
 import { ChevronsLeftRight } from '@lucide/astro';
@@ -10,16 +12,18 @@ import { ChevronsLeftRight } from '@lucide/astro';
 	<div class="flex flex-col items-center gap-4 font-semibold text-center mt-8 md:flex-row md:items-start md:justify-center md:gap-8  md:text-left">
 		<Avatar />
 		<div>
-			<h2>asdfasdf f f asdfasdf</h2>
-			<h2>Role</h2>
+			<h2>{site.name}</h2>
+			<h2>{site.role}</h2>
 			<a href="">
 				<div class="flex items-center gap-2 justify-center md:justify-start">
 					<MapPinHouse class="w-6 h-6"/>
-					<h2>Location</h2>
+					<h2>{site.location}</h2>
 				</div>
 			</a>
 		</div>
 	</div>
+
+	<Socials />
 	
 	<div>
 		<p>
