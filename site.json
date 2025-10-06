@@ -1,0 +1,12 @@
+{
+  "page": "https://vhemalheiro.com",
+  "avatar": "/perfil.jpg",
+  "name": "Victor H. E. Malheiro",
+  "role": "Software Developer",
+  "location": "Ribeirão Preto - SP/Brasil",
+  "social": {
+    "github": "https://github.com/vhemalheiro",
+    "linkedin": "https://linkedin.com/in/vhemlaheiro",
+    "email": "vhemalheiro@gmail.com"
+  }
+}
