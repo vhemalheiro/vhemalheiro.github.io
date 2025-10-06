@@ -1,4 +1,27 @@
-<a href="/" class="btn btn-ghost text-xl navigation">Home</a>
-<a href="/about/" class="btn btn-ghost text-xl navigation">About</a>
-<a href="/blog/" class="btn btn-ghost text-xl navigation">Blog</a>
-<a href="/tags/" class="btn btn-ghost text-xl navigation">Tags</a>
+---
+import { House } from '@lucide/astro'
+import { BriefcaseBusiness } from '@lucide/astro'
+import { FileCode2 } from '@lucide/astro'
+import { NotepadText } from '@lucide/astro'
+---
+
+
+<a href="/" class="btn btn-ghost items-center gap-2 text-lg hidden md:inline-flex">
+    <House class="w-5 h-5"/>
+    Home
+</a>
+
+<a href="/about/" class="btn btn-ghost items-center gap-2 text-lg hidden md:inline-flex">
+    <BriefcaseBusiness class="w-5 h-5"/>
+    Work
+</a>
+
+<a href="/blog/" class="btn btn-ghost items-center gap-2 text-lg hidden md:inline-flex">
+    <FileCode2 class="w-5 h-5"/>
+    Projects
+</a>
+
+<a href="/tags/" class="btn btn-ghost items-center gap-2 text-lg hidden md:inline-flex">
+    <NotepadText class="w-5 h-5"/>
+    Posts
+</a>

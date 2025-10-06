@@ -2,7 +2,7 @@
 const { url, label, size, viewBox, path } = Astro.props;
 ---
 
-<a  href={url} target="_blank" rel="noopener noreferrer" class="btn btn-soft flex items-center gap-2">
+<a href={url} target="_blank" rel="noopener noreferrer" class="btn btn-soft flex items-center gap-2">
   <svg class=`w-${size} h-${size} fill-current` aria-label=`${label} logo` xmlns="http://www.w3.org/2000/svg" viewBox=`0 0 ${viewBox} ${viewBox}` >
     <path d={path}></path>
   </svg>
