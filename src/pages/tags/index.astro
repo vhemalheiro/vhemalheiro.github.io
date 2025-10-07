@@ -1,14 +1,14 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
-const pageTitle = "Tags";
+const pageTitle = "Posts";
 
 const allPosts = Object.values(import.meta.glob('../posts/*.md', { eager: true }));
 const tags = [...new Set(allPosts.map((post: any) => post.frontmatter.tags).flat())];
 ---
 
-<!-- <BaseLayout pageTitle={pageTitle}> -->
-<BaseLayout>
+<BaseLayout pageTitle={pageTitle}>
+<!-- <BaseLayout> -->
   <h2>Work In Progress!</h2>
     <!-- <div class="tags">
         {tags.map((tag) => (
