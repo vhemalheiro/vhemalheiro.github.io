@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="210mm"
+   viewBox="0 0 210 210"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="mainme.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.79589844"
+     inkscape:cx="315.36687"
+     inkscape:cy="475.56319"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" /><defs
+     id="defs1"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath26"><rect
+         style="fill:#000000;stroke:#000000;stroke-width:2.68693"
+         id="rect26"
+         width="91.265823"
+         height="61.836304"
+         x="19.345886"
+         y="14.220294" /></clipPath></defs><g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"><g
+       style="fill:#000000;fill-opacity:1;stroke:#1cdec1;stroke-opacity:1"
+       id="g10"
+       transform="matrix(-2.4974528,0,0,-3.405559,264.38438,261.62009)"
+       clip-path="url(#clipPath26)"><path
+         id="path1"
+         d="m 49.500001,16.500781 c -1.5,0 -2.700391,1.199219 -3.400391,3.199219 L 21.900391,85.399219 a 75.1,75.1 0 0 1 28.5,-6.898437 L 61.19922,45.399219 c 0.4,-1.6 1.60039,-2.699219 2.90039,-2.699219 1.3,0 2.500391,1.100781 2.900391,2.800781 L 77.59961,78.399219 c 16.9,0 28.5,7 28.5,7 L 81.900392,19.7 c -0.7,-2 -1.900391,-3.199219 -3.400391,-3.199219 z"
+         style="fill:#000000;fill-opacity:1;stroke:#1cdec1;stroke-opacity:1" /></g></g><style
+     id="style1">
+        path { fill: #000; }
+        @media (prefers-color-scheme: dark) {
+            path { fill: #FFF; }
+        }
+    </style></svg>
